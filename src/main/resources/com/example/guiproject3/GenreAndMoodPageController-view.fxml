@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guiproject3.GenreAndMoodPageController">
+   <children>
+      <ImageView fitHeight="619.0" fitWidth="610.0" layoutX="-1.0" opacity="0.94" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/purplegredient.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="60.0" layoutX="14.0" layoutY="10.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/left-arrow.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="35.0" layoutY="108.0" prefHeight="61.0" prefWidth="538.0" text="SELECT SONG ON THE BASIS OF" textFill="GOLD" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Button fx:id="chooseGenreButton" layoutX="226.0" layoutY="251.0" mnemonicParsing="false" onAction="#onChooseGenreClicked" prefHeight="73.0" prefWidth="156.0" style="-fx-background-color: #3C003A;" text="GENRE" textFill="GOLD">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="chooseMoodButton" layoutX="223.0" layoutY="374.0" mnemonicParsing="false" onAction="#onChooseMoodClicked" prefHeight="62.0" prefWidth="162.0" style="-fx-background-color: #3C003A;" text="MOOD" textFill="GOLD">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="8.0" layoutY="3.0" mnemonicParsing="false"  opacity="0.0" prefHeight="74.0" prefWidth="70.0" />
+   </children>
+</AnchorPane>

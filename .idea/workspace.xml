@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d278685b-c624-419d-8d4f-be05d71a6c5d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/BackNavigationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/FrontNavigationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/GenreAndMoodPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/GenreSelectionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/HomePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/InvalidSongDurationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/Mood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/MoodSelectionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/MusicPlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/PlaylistSelectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guiproject3/WelcomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/Purple Gradient (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/Purple Gradient (5).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/Purple and pink gradient(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/WelcomePagepic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/back (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/cassette.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/circle-of-two-clockwise-arrows-rotation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/colorful-wavy-background_23-2148468380.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/deadline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/favorite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/left-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/listen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/live-music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/medium-volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/music-note.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/music-notes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/next (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/next-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/play-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/previous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/reset.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/video-pause-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/guiproject3/GenreAndMoodPageController-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/guiproject3/GenreSelectionPage-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/guiproject3/HomePageController-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/guiproject3/LoginController-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/guiproject3/MoodSelectionPage-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/guiproject3/MusicPlayerPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/guiproject3/PlaylistSelectionController-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/guiproject3/WelcomeController-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2pzCTlfRDpFuWLo4f4LVw4QD9Zh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Haseeb/Desktop/Melodify_Final",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d278685b-c624-419d-8d4f-be05d71a6c5d" name="Changes" comment="" />
+      <created>1733759526378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733759526378</updated>
+    </task>
+    <servers />
+  </component>
+</project>

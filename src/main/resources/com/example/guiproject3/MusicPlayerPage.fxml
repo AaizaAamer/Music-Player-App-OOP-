@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.ProgressBar?>
+<AnchorPane fx:id="pane" prefHeight="688.0" prefWidth="717.0" style="-fx-background-color: #222222;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guiproject3.MusicPlayerController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3e1435" height="696.0" stroke="BLACK" strokeType="INSIDE" width="717.0" />
+      <Rectangle arcHeight="100.0" arcWidth="100.0" fill="#0000007f" height="74.0" layoutX="303.0" layoutY="464.0" opacity="0.59" stroke="BLACK" strokeLineCap="ROUND" strokeType="OUTSIDE" width="380.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Rectangle>
+        <ProgressBar fx:id="songProgressBar" layoutY="217.0" prefHeight="18.0" prefWidth="717.0" progress="0.0" />
+        <Slider fx:id="volumeSlider" layoutX="392.0" layoutY="494.0" max="100.0" prefHeight="14.0" prefWidth="279.0" value="50.0" />
+      <Label fx:id="song" layoutX="186.0" layoutY="7.0" prefHeight="74.0" prefWidth="315.0" text="MUSIC PLAYER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="42.0" />
+         </font>
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+      </Label>
+      <Label fx:id="songLabel" layoutX="5.0" layoutY="122.0" prefHeight="53.0" prefWidth="701.0" text="Now playing: no song" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Verdana" size="18.0" />
+         </font>
+      </Label>
+      <Circle fill="#230a1e" layoutX="294.0" layoutY="277.0" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#230a1e" layoutX="408.0" layoutY="277.0" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#230a1e" layoutX="71.0" layoutY="277.0" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#230a1e" layoutX="515.0" layoutY="276.0" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#230a1e" layoutX="172.0" layoutY="277.0" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="74.0" fitWidth="70.0" layoutX="259.0" layoutY="240.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/play-button.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="68.0" layoutX="374.0" layoutY="240.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/video-pause-button.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="55.0" layoutX="140.0" layoutY="251.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/previous.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="55.0" layoutX="487.0" layoutY="251.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/next-button.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="68.0" layoutX="37.0" layoutY="243.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/circle-of-two-clockwise-arrows-rotation.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
+        <ComboBox fx:id="speedBox" layoutX="590.0" layoutY="245.0" onAction="#changeSpeed" prefHeight="62.0" prefWidth="95.0">
+         <effect>
+            <Glow />
+         </effect>
+      </ComboBox>
+      <ImageView fitHeight="62.0" fitWidth="61.0" layoutX="590.0" layoutY="245.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/deadline.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="100.0" arcWidth="100.0" fill="#0000007f" height="87.0" layoutX="117.0" layoutY="-1.0" opacity="0.59" stroke="BLACK" strokeLineCap="ROUND" strokeType="OUTSIDE" width="441.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#230a1e" height="108.0" layoutX="301.0" layoutY="322.0" stroke="BLACK" strokeType="INSIDE" width="416.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3e1435" height="68.0" layoutX="309.0" layoutY="342.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3e1435" height="68.0" layoutX="603.0" layoutY="343.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3e1435" height="68.0" layoutX="501.0" layoutY="343.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3e1435" height="68.0" layoutX="405.0" layoutY="343.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+      <ImageView fitHeight="46.0" fitWidth="80.0" layoutX="321.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/medium-volume.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="61.0" layoutX="410.0" layoutY="346.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/favorite1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="68.0" layoutX="502.0" layoutY="346.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/music-note.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="-0.29" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="61.0" layoutX="313.0" layoutY="346.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/favorite.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="68.0" layoutX="604.0" layoutY="345.0" opacity="0.81" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/music-note1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="55.0" layoutX="33.0" layoutY="36.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/left-arrow.png" />
+         </image>
+      </ImageView>
+        <Button fx:id="nextButton" layoutX="480.0" layoutY="244.0" mnemonicParsing="false" onAction="#nextMedia" opacity="0.0" prefHeight="62.0" prefWidth="68.0" />
+        <Button fx:id="previousButton" layoutX="133.0" layoutY="244.0" mnemonicParsing="false" onAction="#previousMedia" opacity="0.0" prefHeight="68.0" prefWidth="70.0" />
+      <Button fx:id="addToLikedSongsButton" layoutX="310.0" layoutY="342.0" mnemonicParsing="false" onAction="#handleAddToLikedSongs" opacity="0.0" prefHeight="68.0" prefWidth="68.0" />
+      <Button fx:id="removeFromMyPlaylistButton" layoutX="604.0" layoutY="346.0" mnemonicParsing="false" onAction="#handleRemoveFromMyPlaylist" opacity="0.0" prefHeight="62.0" prefWidth="68.0" />
+      <Button fx:id="addToMyPlaylistButton" layoutX="502.0" layoutY="346.0" mnemonicParsing="false" onAction="#handleAddToMyPlaylist" opacity="0.0" prefHeight="62.0" prefWidth="68.0">
+         <effect>
+            <ColorAdjust brightness="-1.0" contrast="1.0" hue="-1.0" />
+         </effect></Button>
+        <Button fx:id="playButton" layoutX="259.0" layoutY="242.0" mnemonicParsing="false" onAction="#playMedia" opacity="0.0" prefHeight="74.0" prefWidth="68.0">
+         <effect>
+            <Glow level="0.0" />
+         </effect></Button>
+      <Button fx:id="removeFromLikedSongsButton" layoutX="408.0" layoutY="346.0" mnemonicParsing="false" onAction="#handleRemoveFromLikedSongs" opacity="0.0" prefHeight="62.0" prefWidth="68.0" />
+        <Button fx:id="pauseButton" layoutX="371.0" layoutY="238.0" mnemonicParsing="false" onAction="#pauseMedia" opacity="0.0" prefHeight="76.0" prefWidth="70.0" />
+        <Button fx:id="resetButton" contentDisplay="CENTER" layoutX="36.0" layoutY="242.0" mnemonicParsing="false" onAction="#resetMedia" opacity="0.0" prefHeight="74.0" prefWidth="70.0" textFill="#ff00d0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="backButton" layoutX="35.0" layoutY="36.0" mnemonicParsing="false" onAction="#handleBackButton" opacity="0.0" prefHeight="54.0" prefWidth="52.0" />
+    </children>
+    <VBox layoutX="7.0" layoutY="350.0" prefHeight="339.0" prefWidth="298.0" spacing="10">
+      <ListView fx:id="songListView" layoutX="-2.0" layoutY="373.0" opacity="0.64" prefHeight="370.0" prefWidth="298.0" />
+</VBox>
+</AnchorPane>

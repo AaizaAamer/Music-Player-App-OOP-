@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DisplacementMap?>
+<?import javafx.scene.effect.FloatMap?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="562.0" prefWidth="607.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guiproject3.HomePageController">
+   <children>
+      <ImageView fitHeight="570.0" fitWidth="607.0" layoutY="-3.0" opacity="0.75" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/purplegredient.jpg" />
+         </image>
+         <effect>
+            <DisplacementMap>
+               <mapData>
+                  <FloatMap />
+               </mapData>
+            </DisplacementMap>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="349.0" fitWidth="161.0" layoutX="433.0" layoutY="239.0" opacity="0.67" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/live-music.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="344.0" fitWidth="338.0" opacity="0.28" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/music.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="playButtonHomePg" layoutX="131.0" layoutY="194.0" mnemonicParsing="false" onAction="#handlePlayButtonHomePg" prefHeight="70.0" prefWidth="338.0" style="-fx-background-color: #3C003A;" text="PLAY SONG" textAlignment="CENTER" textFill="GOLD">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+      </Button>
+      <Button fx:id="viewPlaylistsButton" layoutX="131.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleViewPlaylistsButton" prefHeight="70.0" prefWidth="338.0" style="-fx-background-color: #3C003A;" text="VIEW PLAYLIST" textAlignment="CENTER" textFill="GOLD">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

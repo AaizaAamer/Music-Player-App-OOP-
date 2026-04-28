@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guiproject3.GenreSelectionPage">
+   <children>
+      <ImageView fitHeight="561.0" fitWidth="623.0" layoutY="-2.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../Images/pink.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="342.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/musicc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="74.0" layoutX="20.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/left-arrow.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="162.0" layoutY="66.0" prefHeight="70.0" prefWidth="299.0" text="SELECT GENRE" textFill="GOLD">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+         <effect>
+            <Glow level="0.6" />
+         </effect>
+      </Label>
+      <VBox layoutX="149.0" layoutY="168.0" prefHeight="269.0" prefWidth="299.0">
+         <children>
+            <Button fx:id="rockButton" mnemonicParsing="false" onAction="#initialize" prefHeight="73.0" prefWidth="299.0" style="-fx-background-color: #3C003A;" text="ROCK" textFill="GOLD">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label />
+            <Button fx:id="classicButton" mnemonicParsing="false" onAction="#initialize" prefHeight="83.0" prefWidth="299.0" style="-fx-background-color: #3C003A;" text="CLASSIC" textFill="GOLD">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label prefHeight="18.0" prefWidth="74.0" />
+            <Button fx:id="popButton" mnemonicParsing="false" onAction="#initialize" prefHeight="81.0" prefWidth="299.0" style="-fx-background-color: #3C003A;" text="POP" textFill="GOLD">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label prefHeight="18.0" prefWidth="62.0" />
+            <Button fx:id="jazzButton" mnemonicParsing="false" onAction="#initialize" prefHeight="70.0" prefWidth="299.0" style="-fx-background-color: #3C003A;" text="JAZZ" textFill="GOLD">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Button fx:id="backButton" layoutX="13.0" layoutY="13.0" mnemonicParsing="false"  opacity="0.0" prefHeight="61.0" prefWidth="74.0" />
+   </children>
+</AnchorPane>
