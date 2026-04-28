@@ -29,7 +29,7 @@ This project is built using the following Object-Oriented Programming principles
 5. Exception Handling: InvalidSongDurationException
 6. Composition: MusicPlayerController with MediaPlayer, Song, File
 
-**Code Location**
+**Code Location:**
 The backend (Java logic) is located in:
 src/main/java/com/example/guiproject3
 
