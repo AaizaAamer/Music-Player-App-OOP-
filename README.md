@@ -1,5 +1,5 @@
 ****Music Player App (OOP)****
-**Summary:**
+
 This project is a Java-based Music Player Application developed using Object-Oriented Programming (OOP) principles and JavaFX for the graphical user interface (GUI). It provides a complete music experience where users can play songs, manage playlists, explore music by mood and genre, like songs, and authenticate through login/signup functionality.
 
 **Features:**
