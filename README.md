@@ -32,6 +32,7 @@ This project is built using the following Object-Oriented Programming principles
 **Code Location**
 The backend (Java logic) is located in:
 src/main/java/com/example/guiproject3
+
 The frontend (FXML UI designed using SceneBuilder) is located in:
 src/main/resources/com/example/guiproject3
 
